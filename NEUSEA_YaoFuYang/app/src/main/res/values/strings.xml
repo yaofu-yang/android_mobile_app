@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">NEUSEA_YaoFuYang</string>
+    <string name="full_name">Yao-Fu Yang</string>
+
+    <!--    Buttons on the main activity page-->
+    <string name="about_button">About</string>
+    <string name="error_button">Generate Error</string>
+    <string name="dictionary_button">Dictionary</string>
+    <string name="tic_tac_toe_button">Tic Tac Toe</string>
+
+    <!--    Strings for reusable widgets-->
+    <string name="ack_button">Ack</string>
+    <string name="ack_title">Acknowledgements</string>
+    <string name="empty_string">""</string>
+
+    <!--    Content for About Activity-->
+    <string name="about_title">About Me</string>
+    <string name="about_content">Yao-Fu Yang\nyangyaof@northeastern.edu
+        \nFall 2020\nComputer Science\n</string>
+    <string name="portrait_desc">Display the portrait photo</string>
+
+    <!--    Content for Dictionary Activity-->
+    <string name="dictionary_title">Test Dictionary</string>
+    <string name="word_length">Word Length:</string>
+    <string name="available_letters">Available Letters:</string>
+    <string name="word_pattern">Pattern:</string>
+    <string name="search_button">Search</string>
+    <string name="clear_button">Clear</string>
+    <string name="default_time">000ms</string>
+    <string name="list_item_result">Result</string>
+
+    <!--    Dictionary Acknowledgments-->
+    <string name="dict_textbook_ack">Most references were from The Big\n
+    Nerd Ranch and the developer guide from Developer.Android.com</string>
+    <string name="dict_link_ack">Other Resource Links:\n
+    https://stackoverflow.com/questions/22798347/android-linking-edit-text-field-to-button\n
+    https://stackoverflow.com/questions/18302603/where-to-place-the-assets-folder-in-android-studio\n
+    https://bytes.com/topic/java/answers/728680-how-get-greek-mu-symbol-jlabel-text\n
+    https://www.tutorialspoint.com/java/lang/system_nanotime.htm</string>
+
+    <!--    Content for TicTacToe-->
+    <string name="tic_tac_toe_title">Tic Tac Toe</string>
+    <string name="player_one">Player One</string>
+    <string name="player_two">Player Two</string>
+    <string name="reset_game">Reset Game</string>
+    <string name="x_mark">X</string>
+    <string name="o_mark">O</string>
+    <string name="button_id_prefix">btn_</string>
+    <string name="player_one_wins">Player One Wins!</string>
+    <string name="player_two_wins">Player Two Wins!</string>
+    <string name="players_tie">No Winner :(</string>
+    <string name="player_one_leads">Player One is Winning!</string>
+    <string name="player_two_leads">Player Two is Winning!</string>
+
+    <!--    Tic Tac Toe Acknowledgements-->
+    <string name="tic_textbook_ack">Most references were from The Big Nerd Ranch</string>
+    <string name="tic_link_ack">Other links:\n
+        1. https://stackoverflow.com/questions/6589797/how-to-get-package-name-from-anywhere\n
+        2. https://stackoverflow.com/questions/23086291/format-in-kotlin-string-templates\n
+        3. https://stackoverflow.com/questions/31842983/getresources-getcolor-is-deprecated\n
+        4. https://stackoverflow.com/questions/12227310/how-can-we-use-a-variable-in-r-id
+    </string>
+
+    <!--    Tic Tac Toe 2-Player Activity-->
+    <string name="tic_menu">Tic Tac Toe Menu</string>
+    <string name="menu">Menu</string>
+    <string name="welcome">Welcome to Tic Tac Toe!</string>
+    <string name="one_player">1 Player</string>
+    <string name="two_player">2 Players</string>
+    <string name="create_user">Create Username</string>
+    <string name="username_text">Username:</string>
+    <string name="submit_button">Submit</string>
+    <string name="create_anon_account">Create Anon Account</string>
+    <string name="delete_account_text">Delete Account</string>
+    <string name="join_game_button">Join Game</string>
+    <string name="send_challenge_button">Send Challenge</string>
+
+    <!--    Tic Tac Toe Acknowledgements-->
+    <string name="tic_dual_textbook_ack">Most references were from sample code and Firebase documentation</string>
+    <string name="tic_dual_other_links">Other links:\n
+        1. https://stackoverflow.com/questions/42173377/how-to-update-list-item-in-firebase-using-android\n
+        2. https://stackoverflow.com/questions/43333459/firebase-value-event-listener-not-working\n
+        3. https://stackoverflow.com/questions/41372562/returning-a-value-in-firebase-ondatachange\n
+        4. https://stackoverflow.com/questions/55697262/cannot-resolve-method-updateui/55697313\n
+        5. https://stackoverflow.com/questions/56052718/how-to-read-data-from-firebase-based-on-a-key-value-in-kotlin
+    </string>
+
+    <!--    String values for Recipes Project-->
+    <string name="edit_ingredients">Edit Ingredients</string>
+    <string name="add_recipe">Add a Recipe</string>
+    <string name="add_review">Add a Review</string>
+    <string name="search_recipes">Search For a Recipe</string>
+    <string name="check_ingredients">Check Ingredients</string>
+    <string name="recipe_button">Recipe Manager</string>
+    <string name="send_challenge_via_fcm">Send Challenge via FCM</string>
+    <string name="recipes_data_manager">Data Manager</string>
+    <string name="recipes_add_ingredient">Add Ingredient</string>
+    <string name="recipes_delete_ingredient">Delete Ingredient</string>
+    <string name="ingredient_text">ingredient</string>
+    <string name="recipes_show_ingredients">Show Ingredients</string>
+    <string name="recipes_search_by_current_ingredients">Search By Current Ingredients</string>
+    <string name="recipes_browse_all">Browse All</string>
+    <string name="recipes_feeling_lucky">Feeling Lucky</string>
+    <string name="recipes_nutritional_value">Nutritional Value</string>
+    <string name="recipe_steps">Recipe Steps</string>
+    <string name="recipe_ingredients">Recipe Ingredients</string>
+    <string name="recipes_bookmark">Bookmark</string>
+    <string name="recipes_remove_bookmark">Remove From Bookmark</string>
+    <string name="recipes_bookmark_text">See Bookmarked Recipes</string>
+
+<!--Recipes Manager Acknowledgements-->
+    <string name="recipes_acknowledgement_text">Special thanks to the following:\n
+        1. https://www.kaggle.com/shuyangli94/food-com-recipes-and-user-interactions?select=RAW_recipes.csv\n
+        2. https://stackoverflow.com/questions/46219438/how-to-join-two-tables-in-android-using-content-provider-query-method\n
+        3. https://stackoverflow.com/questions/52213966/passing-the-data-associated-to-a-listview-cell-to-another-activity-onclick-of/52214077\n
+        4. https://stackoverflow.com/questions/15643907/multiple-loaders-in-same-activity\n
+        5. https://stackoverflow.com/questions/5812030/java-lang-illegalargumentexception-column-id-does-not-exist\n
+        6. https://stackoverflow.com/questions/16608986/android-sqlite-inserting-data-in-while-clause-is-very-slow\n
+        7. https://stackoverflow.com/questions/10507005/using-string-selectionargs-in-sqlitedatabase-query
+    </string>
+
+
+    <!--    Version code/name: needs to be updated with each release-->
+    <!--    todo: updated for Recipes as of 11/27/2020-->
+    <string name="version_code">5</string>
+    <string name="version_string">5.0.0</string>
+</resources>

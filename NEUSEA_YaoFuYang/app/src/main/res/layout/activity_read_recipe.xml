@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReadRecipeActivity">
+
+    <TextView
+        android:id="@+id/recipe_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/goldenTainoi"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/recipe_nutrition_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recipes_nutritional_value"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/recipe_nutrition"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:id="@+id/recipe_steps_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recipe_steps"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/recipe_item_steps"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:id="@+id/recipe_ingredients_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recipe_ingredients"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/recipe_item_ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/add_bookmark_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recipes_bookmark"/>
+
+    <Button
+        android:id="@+id/remove_bookmark_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recipes_remove_bookmark"/>
+<!--    <Button-->
+<!--        android:id="@+id/add_review_button"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Add Review"/>-->
+<!--    <Button-->
+<!--        android:id="@+id/see_reviews_button"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="See Reviews"/>-->
+
+</LinearLayout>

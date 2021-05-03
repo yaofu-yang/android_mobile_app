@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dual_tic_tac_toe_classes.TicFCMActivity">
+
+    <TextView
+        android:id="@+id/recipe_calories_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calories: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/recipe_calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/recipe_calories_text"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/recipe_total_fat_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Fat PDV(%): "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recipe_calories_text"
+        />
+
+    <TextView
+        android:id="@+id/recipe_total_fat_pvd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/recipe_total_fat_text"
+        app:layout_constraintTop_toBottomOf="@id/recipe_calories"
+        />
+
+    <TextView
+        android:id="@+id/recipe_sugar_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sugar PDV(%): "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recipe_total_fat_text"
+        />
+
+    <TextView
+        android:id="@+id/recipe_sugar_pvd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/recipe_sugar_text"
+        app:layout_constraintTop_toBottomOf="@id/recipe_total_fat_pvd"
+        />
+
+    <TextView
+        android:id="@+id/recipe_sodium_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sodium PDV(%): "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recipe_sugar_text"
+        />
+
+    <TextView
+        android:id="@+id/recipe_sodium_pvd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/recipe_sodium_text"
+        app:layout_constraintTop_toBottomOf="@id/recipe_sugar_pvd"
+        />
+
+    <TextView
+        android:id="@+id/recipe_protein_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Protein PDV(%): "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recipe_sodium_text"
+        />
+
+    <TextView
+        android:id="@+id/recipe_protein_pvd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/recipe_protein_text"
+        app:layout_constraintTop_toBottomOf="@id/recipe_sodium_pvd"
+        />
+
+    <TextView
+        android:id="@+id/recipe_sat_fat_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saturated Fat PDV(%): "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recipe_protein_text"
+        />
+
+    <TextView
+        android:id="@+id/recipe_sat_fat_pvd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/recipe_sat_fat_text"
+        app:layout_constraintTop_toBottomOf="@id/recipe_protein_pvd"
+        />
+
+    <TextView
+        android:id="@+id/recipe_carbohydrates_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carbohydrates PDV(%): "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recipe_sat_fat_text"
+        />
+
+    <TextView
+        android:id="@+id/recipe_carbohydrates_pvd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/recipe_carbohydrates_text"
+        app:layout_constraintTop_toBottomOf="@id/recipe_sat_fat_pvd"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

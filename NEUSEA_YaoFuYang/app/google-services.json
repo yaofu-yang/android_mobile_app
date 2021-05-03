@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "325035311901",
+    "firebase_url": "https://tic-tac-toe-3bd1a.firebaseio.com",
+    "project_id": "tic-tac-toe-3bd1a",
+    "storage_bucket": "tic-tac-toe-3bd1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325035311901:android:75d860fafb50c54fed57f4",
+        "android_client_info": {
+          "package_name": "edu.neu.mad_sea.yaofuyang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325035311901-sc2tq72eut2tmiudnosc1q9f6mo1oge6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbAQnH9sRhqGec4N1ESa8oz_Ie2B_W4hM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325035311901-sc2tq72eut2tmiudnosc1q9f6mo1oge6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

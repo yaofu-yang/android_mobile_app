@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dictionary_classes.DisplayDictAckActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dict_textbook_ack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:padding="8dp"
+        android:text="@string/dict_textbook_ack"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/dict_links_ack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:padding="4dp"
+        android:text="@string/dict_link_ack"
+        android:textSize="18sp"/>
+
+</LinearLayout>

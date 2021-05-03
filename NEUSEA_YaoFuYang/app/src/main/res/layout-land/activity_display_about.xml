@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/aboutInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:ems="11"
+        android:gravity="start"
+        android:padding="4dp"
+        android:text="@string/about_content"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/portraitPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/portrait_desc"
+        android:src="@drawable/portrait_photo" />
+
+</LinearLayout>

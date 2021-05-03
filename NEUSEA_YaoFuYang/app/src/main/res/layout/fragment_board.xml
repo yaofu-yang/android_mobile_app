@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/board_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_0"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="72dp"
+        android:backgroundTint="#413F43"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        app:layout_constraintTop_toTopOf="@+id/btn_0"
+        app:layout_constraintLeft_toRightOf="@id/btn_0"
+        />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        app:layout_constraintTop_toTopOf="@+id/btn_1"
+        app:layout_constraintLeft_toRightOf="@id/btn_1"
+        />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#413F43"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/btn_0"
+        app:layout_constraintTop_toBottomOf="@+id/btn_0" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        app:layout_constraintTop_toTopOf="@+id/btn_3"
+        app:layout_constraintLeft_toRightOf="@id/btn_3"
+        />
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        app:layout_constraintTop_toTopOf="@+id/btn_4"
+        app:layout_constraintLeft_toRightOf="@id/btn_4"
+        />
+
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        app:layout_constraintTop_toBottomOf="@+id/btn_3"
+        app:layout_constraintLeft_toLeftOf="@+id/btn_3"
+        />
+
+    <Button
+        android:id="@+id/btn_7"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        app:layout_constraintTop_toTopOf="@+id/btn_6"
+        app:layout_constraintLeft_toRightOf="@id/btn_6"
+        />
+
+    <Button
+        android:id="@+id/btn_8"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        app:layout_constraintTop_toTopOf="@+id/btn_7"
+        app:layout_constraintLeft_toRightOf="@id/btn_7"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
